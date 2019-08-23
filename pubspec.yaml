@@ -1,0 +1,17 @@
+name: sketch_board
+description: A minimalist sketching app
+version: 1.0.0
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  expandable: ^3.0.0+1
+  provider: ^3.0.0
+  path_provider: ^1.2.0
+  intl: ^0.15.8
+
+flutter:
+  uses-material-design: true
