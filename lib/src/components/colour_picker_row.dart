@@ -17,7 +17,7 @@ class ColourPickerRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       scrollDirection: Axis.horizontal,
-      children: (colours ?? defaultColors).map((colour) {
+      children: (colours ?? defaultColours).map((colour) {
         return Padding(
           padding: const EdgeInsets.only(right: 7.5),
           child: GestureDetector(

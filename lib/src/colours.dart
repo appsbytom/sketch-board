@@ -4,7 +4,7 @@ const defaultBrush = Colors.black;
 const defaultBackground = Colors.white;
 const defaultThickness = 3.0;
 
-final List<Color> defaultColors = [
+final List<Color> defaultColours = [
   Colors.red,
   Colors.pink,
   Colors.purple,
